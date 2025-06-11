@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JACK – Jetting Audio Crow Kit</title>
+   <!-- Download the dependencies, move files to lib directory.
+        https://github.com/processing/p5.js/releases/tag/v1.4.0
+        https://github.com/processing/p5.js-sound/releases/tag/v1.0.1  -->
+    <script src="lib/p5.js"></script> 
+    <script src="lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="font-style: italic;">JACK – Jetting Audio Crow Kit</h1>
+    <input type="file" id="audio-file" accept="audio/mpeg" />
+    <button id="start-button">Start</button>
+    <div id="canvas-container" style="margin-top: 6px;"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
