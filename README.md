@@ -16,13 +16,11 @@ Release 0.01 (Release Notes)
 | 1  | [Features](#features)                     |
 | 2  | [Preview](#preview)	                     |
 | 3  | [Prerequisites](#prerequisites)           |
-| 4  | [Installation](#installation)           |
-| 5  | [How to use](#how-to-use)                 |
-| 6  | [Customize It](#customize-it)             |
-| 7  | [Known Issues](#known-issues)             |
-| 8  | [Development](#development)               |
-| 9  | [License](#license)				         |
-|----|-------------------------------------------|
+| 4  | [How to use](#how-to-use)                 |
+| 5  | [Customize It](#customize-it)             |
+| 6  | [Known Issues](#known-issues)             |
+| 7  | [Development](#development)               |
+| 8  | [License](#license)				         |
 
 Features
 ----
@@ -44,35 +42,25 @@ Prerequisites
 ----
   - You need a web browser (like Firefox(tested with v. 139.0.4 (64-bit))) installed on your computer.
   - About 20MB disk space and own mp3 file to play.
-  - Download Dependencies
-    1.: https://github.com/processing/p5.js/releases/tag/v1.4.0
-    2.: https://github.com/processing/p5.js-sound/releases/tag/v1.0.1
-    Extract them in represented folders:
-    lib/
-    ├── p5.js
-    └── addons/
-        └── p5.sound.min.js
   - Download the JACK repository 
-  
-[[back to top]](#table-of-contents)
-
-
-Installation
-----
-
-Extract index.html and main.js and run "index.html" in your browser.
+  - Download Dependencies
+1.: https://github.com/processing/p5.js/releases/tag/v1.4.0
+2.: https://github.com/processing/p5.js-sound/releases/tag/v1.0.1
+  Extract them in represented folders:
 
 File structure:
+```sh
 JACK/
-    ├─ index.html
-    ├─ main.js
-    lib/
+  ├─ index.html
+  ├─ main.js
+  lib/
     ├── p5.js
     └── addons/
-        └── p5.sound.min.js
+      └── p5.sound.min.js
+```
 
+  
 [[back to top]](#table-of-contents)
-
 
 
 How to use
