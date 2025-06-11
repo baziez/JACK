@@ -76,9 +76,11 @@ Customize It
 JACK is built to be modified:
 Open main.js in a text or IDE editor. 
 Find and modify this three values.
+```sh
 let Sen = 4; // Peak sensitivity value from 1.0 -
 let limCol = 4; // Limiting colors value from 1.0 -
 let limLine = 12; // Line limiter value from 1.0 -
+```
 Or any other values, code...
 
 [[back to top]](#table-of-contents)
